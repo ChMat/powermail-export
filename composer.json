@@ -1,0 +1,12 @@
+{
+  "name": "chmat/powermail-export",
+  "description": "Powermail Export is a quick way of exporting Powermail answer data into a clean array or csv file",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Mattart",
+      "email": "christian@chmat.be"
+    }
+  ]
+}
