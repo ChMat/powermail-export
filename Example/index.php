@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-require('../parsePowermail.php');
+require('../ParsePowermail.php');
 
-use ChMat\PowermailExport\parsePowermail;
+use ChMat\PowermailExport\ParsePowermail;
 
 try {
     if (!array_key_exists('file', $_GET))
@@ -33,7 +33,7 @@ try {
     }
 
     // Load the parser
-    $parser = new parsePowermail();
+    $parser = new ParsePowermail();
 
     //// Parse the answers and return an array.
     //$answers = $parser->parse($tx_powermail_fields, $tx_powermail_mails);

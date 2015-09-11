@@ -19,9 +19,9 @@ then do not forget to convert file contents to ANSI.
 
     <?php
     
-    use ChMat\PowermailExport\parsePowermail;
+    use ChMat\PowermailExport\ParsePowermail;
     
-    $parser = new parsePowermail();
+    $parser = new ParsePowermail();
 
     $answers = $parser->parse($tx_powermail_fields, $tx_powermail_mails);
 
@@ -31,9 +31,9 @@ then do not forget to convert file contents to ANSI.
 
     <?php
     
-    use ChMat\PowermailExport\parsePowermail;
+    use ChMat\PowermailExport\ParsePowermail;
     
-    $parser = new parsePowermail();
+    $parser = new ParsePowermail();
 
     $parser->parseAndDownload($tx_powermail_fields, $tx_powermail_mails, 'customFilename.csv');
 

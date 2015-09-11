@@ -11,7 +11,7 @@
 
 namespace ChMat\PowermailExport;
 
-class parsePowermail
+class ParsePowermail
 {
 
     /**

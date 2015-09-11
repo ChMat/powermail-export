@@ -8,5 +8,8 @@
       "name": "Christian Mattart",
       "email": "christian@chmat.be"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": { "ChMat\\PowermailExport\\": "" }
+  }
 }
