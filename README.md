@@ -38,11 +38,11 @@ then do not forget to convert file contents to ANSI.
     $parser->parseAndDownload($tx_powermail_fields, $tx_powermail_mails, 'customFilename.csv');
 
 
-### Contribute
+## Contribute
 
 Pull requests are welcome on: https://github.com/ChMat/powermail-export
 
-### License
+## License
 
 This project is available under the [MIT license][1].
  
